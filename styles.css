@@ -1,0 +1,66 @@
+/* reset web browser css */
+*,
+*::before,
+*::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/* background GRID */
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+/* qr image */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.675rem;
+}
+
+/* qr container flexbox */
+.qr-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 320px;
+    padding: 1.075rem;
+    margin: 1.075rem;
+    border-radius: 1.35rem;
+    box-shadow: 0 1.6rem 1.6rem hsla(0, 0%, 0%, 01.35rem);
+    text-align: center;
+}
+
+/* qr text */
+h1 {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.275;
+    margin-top: 1.3rem;
+    color: hsl(218, 44%, 22%)
+}
+
+p {
+    font-weight: normal;
+    line-height: 1.3;
+    color: hsl(216, 15%, 48%);
+    margin: 1.075rem;
+}
+
+.attribution {
+    margin-top: 20px;
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
