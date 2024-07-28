@@ -24,8 +24,8 @@ This is the first front-end challenge that I've attempted after learning HTML an
 
 ### Links
 
-- Solution URL: [https://github.com/abigbroomstick/qr-code-component](url)
-- Live Site URL: [https://abigbroomstick.github.io/qr-code-component/](url)
+- Solution URL: [https://github.com/abigbroomstick/qr-code-component](https://github.com/abigbroomstick/qr-code-component)
+- Live Site URL: [https://abigbroomstick.github.io/qr-code-component/](https://abigbroomstick.github.io/qr-code-component/)
 ## My process
 I began by trying to visualize and break down the website's layout. Then I wrote the structure and elements in HTML and made sure they were semantically correct, which is for accessibility and SEO purposes.
 Then I styled the components using CSS.
